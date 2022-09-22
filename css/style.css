@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit/Larsseit.woff2") format('woff2'), url("../fonts/Larsseit/Larsseit.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
+
+
+*/
+
+/*
+@font-face {
+    font-family: "CircularStd";
+    src: url(../fonts/circular-std-font-family/CircularStd-Book.woff2) format(woff2), url(../fonts/circular-std-font-family/CircularStd-Book.woff) format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src: url(../fonts/circular-std-font-family/CircularStd-Medium.woff2) format(woff2), url(../fonts/circular-std-font-family/CircularStd-Medium.woff) format(woff);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src: url(../fonts/circular-std-font-family/CircularStd-Bold.woff2) format(woff2), url(../fonts/circular-std-font-family/CircularStd-Bold.woff) format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CircularStd";
+    src: url(../fonts/circular-std-font-family/CircularStd-Black.woff2) format(woff2), url(../fonts/circular-std-font-family/CircularStd-Black.woff) format(woff);
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+*/
+
+/*
+body {
+    font-family: "Montserrat";
+    
+}*/
+
+.name {
+    font-family: "Roboto";
+    color: red;
+}
+
+.kuplet-text-one,
+.kuplet-text-two,
+.kuplet-text-three {
+    font-family: "Lora";
+    color: rgb(133, 54, 18);
+}
+
+.new-text,
+.prispiv-one,
+.prispiv-two,
+.prispiv-three,
+.prispiv-four {
+    font-family: "Lobster";
+    color: chocolate;
+}
+
+.prispiv-text-one,
+.prispiv-text-two,
+.prispiv-text-three {
+    font-family: "Roboto";
+    color: blueviolet;
+}
+
+.kuplet-one,
+.kuplet-two,
+.kuplet-three {
+    font-family: "Lobster";
+    color: blue;
+}
+
+.nytimes {
+    font-family: "Lora";
+    color: blue;
+}
+
+.eng-words {
+    font-family: "Larsseit";
+}
+
+.eng-words-2 {
+    font-family: "Lora";
+    color: brown;
+}
+
+a.link {
+    font-family: Lobster;
+    color: blue;
+}
+
+.green {
+    font-family: "Larsseit";
+    color: green;
+}
+
+.eng-words-2 .yellow {
+    color: yellow;
+}
+
+.kuplet-text-two p {
+    color: green;
+}
+
+.kuplet-text-two .red {
+    color: red;
+}
+
+.kuplet-text-three>p {
+    color: darkgreen;
+}
+
+.eng-words+p {
+    color: red;
+}
+
+/*.eng-words>p {
+    color: red;
+}*/
+
+.eng-words-2~p {
+    color: rgb(163, 42, 113);
+}
+
+.prispiv-text-three * {
+    color: red;
+}
